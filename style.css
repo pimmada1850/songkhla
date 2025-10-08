@@ -321,7 +321,7 @@ white-space: normal;
     left: 50%;
     bottom: 20px;
     gap: 10px;
-    transform: translateX(-50%);
+    
     flex-wrap: wrap;
     justify-content: center;
  }
@@ -341,6 +341,7 @@ white-space: normal;
  *{
     box-sizing: border-box;
  }
+
 
 
 
