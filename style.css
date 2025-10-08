@@ -300,6 +300,14 @@ white-space: normal;
     .carousel .list .item .content .title{
         font-size: 30px;
     }
+    .carousel .list .item img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    background-color: #000;
+    display: block;
+}
 }
  html, body{
     width: 100%;
@@ -311,6 +319,7 @@ white-space: normal;
     box-sizing: border-box;
  }
     
+
 
 
 
