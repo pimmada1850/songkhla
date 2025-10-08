@@ -293,12 +293,17 @@ to{
 @media  screen and (max-width: 678px) {
     .carousel .list .item .content{
         padding-right: 0;
+        width: 90%;
+        left: 50%;
+transform: translateX(-50%);
+text-align: center;
     }
     .carousel .list .item .topic{
 white-space: normal;
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+        white-space: normal;
     }
     .carousel .list .item img{
     width: 100%;
@@ -308,7 +313,25 @@ white-space: normal;
     background-color: #000;
     display: block;
 }
-}
+ .carousel, .carousel .list, .carousel .list .item{
+    max-width: 100%;
+    overflow: hidden;
+ }
+ .thumbnail{
+    left: 50%;
+    bottom: 20px;
+    gap: 10px;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .thumbnail .item{
+    width: 100px;
+    height: 140px;
+ }
+
+ }
+
  html, body{
     width: 100%;
     overflow-x: hidden !important;
@@ -318,9 +341,6 @@ white-space: normal;
  *{
     box-sizing: border-box;
  }
-    
-
-
 
 
 
